@@ -1,0 +1,5 @@
+Requirements (Ubuntu/Debian packages):
+libzmqpp-dev
+libsodium-dev
+nlohmann-json-dev
+libcurl-dev
