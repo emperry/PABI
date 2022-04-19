@@ -1,0 +1,36 @@
+C:/Users/Lizzie/embedded-software/MSARF_Firmware/MSARF_Firmware/Actuators/Inc/XYZrobotServo.h:130:12:uint16_t XYZrobotServo::readPosition()	32	static
+C:/Users/Lizzie/embedded-software/MSARF_Firmware/MSARF_Firmware/Actuators/Inc/XYZrobotServo.h:157:11:uint8_t XYZrobotServo::getLastError() const	16	static
+../Actuators/Src/XYZrobotServo.cpp:25:1:XYZrobotServo::XYZrobotServo(UART_HandleTypeDef*, uint8_t, uint16_t)	24	static
+../Actuators/Src/XYZrobotServo.cpp:34:6:void XYZrobotServo::eepromWrite(uint8_t, const uint8_t*, uint8_t)	32	static
+../Actuators/Src/XYZrobotServo.cpp:43:6:void XYZrobotServo::eepromRead(uint8_t, uint8_t*, uint8_t)	32	static
+../Actuators/Src/XYZrobotServo.cpp:49:6:void XYZrobotServo::ramWrite(uint8_t, const uint8_t*, uint8_t)	32	static
+../Actuators/Src/XYZrobotServo.cpp:58:6:void XYZrobotServo::ramRead(uint8_t, uint8_t*, uint8_t)	32	static
+../Actuators/Src/XYZrobotServo.cpp:69:6:void XYZrobotServo::writeBaudRateEeprom(XYZrobotServoBaudRate)	32	static
+../Actuators/Src/XYZrobotServo.cpp:77:23:XYZrobotServoBaudRate XYZrobotServo::readBaudRateEeprom()	32	static
+../Actuators/Src/XYZrobotServo.cpp:90:6:void XYZrobotServo::writeIdEeprom(uint8_t)	24	static
+../Actuators/Src/XYZrobotServo.cpp:97:9:uint8_t XYZrobotServo::readIdEeprom()	32	static
+../Actuators/Src/XYZrobotServo.cpp:108:6:void XYZrobotServo::writeIdRam(uint8_t)	24	static
+../Actuators/Src/XYZrobotServo.cpp:118:6:void XYZrobotServo::writeAckPolicyEeprom(XYZrobotServoAckPolicy)	24	static
+../Actuators/Src/XYZrobotServo.cpp:125:24:XYZrobotServoAckPolicy XYZrobotServo::readAckPolicyEeprom()	24	static
+../Actuators/Src/XYZrobotServo.cpp:133:6:void XYZrobotServo::writeAckPolicyRam(XYZrobotServoAckPolicy)	24	static
+../Actuators/Src/XYZrobotServo.cpp:151:6:void XYZrobotServo::writeAlarmLedPolicyRam(uint8_t)	16	static
+../Actuators/Src/XYZrobotServo.cpp:157:6:void XYZrobotServo::writeSpdctrlPolicyRam(XYZrobotServoSpdctrlPolicy)	24	static
+../Actuators/Src/XYZrobotServo.cpp:168:6:void XYZrobotServo::writeMaxPwmRam(uint16_t)	16	static
+../Actuators/Src/XYZrobotServo.cpp:180:6:void XYZrobotServo::writeLedControl(uint8_t)	16	static
+../Actuators/Src/XYZrobotServo.cpp:186:24:XYZrobotServoAckPolicy XYZrobotServo::readAckPolicyRam()	24	static
+../Actuators/Src/XYZrobotServo.cpp:194:21:XYZrobotServoStatus XYZrobotServo::readStatus()	24	static
+../Actuators/Src/XYZrobotServo.cpp:211:6:void XYZrobotServo::setPosition(uint16_t, uint8_t)	16	static
+../Actuators/Src/XYZrobotServo.cpp:227:6:void XYZrobotServo::setSpeed(int16_t, uint8_t)	16	static
+../Actuators/Src/XYZrobotServo.cpp:242:6:void XYZrobotServo::torqueOff()	16	static
+../Actuators/Src/XYZrobotServo.cpp:252:6:void XYZrobotServo::rollback()	24	static
+../Actuators/Src/XYZrobotServo.cpp:262:6:void XYZrobotServo::reboot()	24	static
+../Actuators/Src/XYZrobotServo.cpp:267:6:void XYZrobotServo::flushRead()	16	static
+../Actuators/Src/XYZrobotServo.cpp:272:6:void XYZrobotServo::sendRequest(uint8_t, const uint8_t*, uint8_t, const uint8_t*, uint8_t)	40	static
+../Actuators/Src/XYZrobotServo.cpp:301:6:void XYZrobotServo::readAck(uint8_t, uint8_t*, uint8_t, uint8_t*, uint8_t)	40	static
+../Actuators/Src/XYZrobotServo.cpp:380:6:void XYZrobotServo::memoryWrite(uint8_t, uint8_t, const uint8_t*, uint8_t)	40	static
+../Actuators/Src/XYZrobotServo.cpp:390:6:void XYZrobotServo::memoryRead(uint8_t, uint8_t, uint8_t*, uint8_t)	40	static
+../Actuators/Src/XYZrobotServo.cpp:420:6:void XYZrobotServo::sendIJog(uint16_t, uint8_t, uint8_t)	32	static
+../Actuators/Src/XYZrobotServo.cpp:431:9:uint8_t XYZrobotServo::detectServo()	48	static
+../Actuators/Src/XYZrobotServo.cpp:460:6:virtual void XYZrobotServo::move(float, float)	32	static
+../Actuators/Src/XYZrobotServo.cpp:469:6:virtual void XYZrobotServo::torque(bool)	16	static
+../Actuators/Src/XYZrobotServo.cpp:477:7:virtual float XYZrobotServo::getValue()	24	static

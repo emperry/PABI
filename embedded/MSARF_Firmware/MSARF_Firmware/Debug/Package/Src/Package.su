@@ -1,0 +1,22 @@
+c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:75:3:constexpr float std::abs(float)	16	static
+c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\cmath:611:3:constexpr bool std::isnan(float)	16	static
+../Package/Src/Package.cpp:10:1:Package::Package(uint8_t)	16	static
+../Package/Src/Package.cpp:12:6:void Package::StepPID()	24	static
+../Package/Src/Package.cpp:37:6:void Package::torque(bool)	16	static
+../Package/Src/Package.cpp:43:6:void Package::initPID()	56	static
+../Package/Src/Package.cpp:52:7:float Package::getSensorValue()	16	static
+../Package/Src/Package.cpp:56:6:void Package::updateSensorValue()	24	static
+../Package/Src/Package.cpp:65:6:void Package::newPosSetpoint(float)	16	static
+../Package/Src/Package.cpp:74:6:void Package::newVelSetpoint(float)	16	static
+../Package/Src/Package.cpp:81:6:void Package::newAccSetpoint(float)	16	static
+../Package/Src/Package.cpp:85:9:uint8_t Package::getPackageNum()	16	static
+../Package/Src/Package.cpp:89:6:void Package::setPGain(float)	16	static
+../Package/Src/Package.cpp:93:6:void Package::setIGain(float)	16	static
+../Package/Src/Package.cpp:97:6:void Package::setDGain(float)	16	static
+../Package/Src/Package.cpp:101:6:void Package::setVelGain(float)	16	static
+../Package/Src/Package.cpp:104:6:void Package::setAccGain(float)	16	static
+../Package/Src/Package.cpp:107:6:void Package::setJerkGain(float)	16	static
+../Package/Src/Package.cpp:111:6:void Package::addSensor(Sensor*)	16	static
+../Package/Src/Package.cpp:114:6:void Package::addActuator(Actuator*)	16	static
+../Package/Src/Package.cpp:117:9:Sensor* Package::getSensor()	16	static
+../Package/Src/Package.cpp:120:11:Actuator* Package::getActuator()	16	static

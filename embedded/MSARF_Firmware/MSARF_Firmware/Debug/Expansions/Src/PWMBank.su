@@ -1,0 +1,8 @@
+../Expansions/Src/PWMBank.cpp:12:1:PWMBank::PWMBank()	16	static
+../Expansions/Src/PWMBank.cpp:24:6:void PWMBank::setPWM(uint8_t, uint16_t, uint16_t)	32	static
+../Expansions/Src/PWMBank.cpp:32:6:void PWMBank::writeMicroseconds(uint8_t, uint16_t)	24	static
+../Expansions/Src/PWMBank.cpp:40:6:void PWMBank::setDutyCycle(uint8_t, uint8_t)	24	static
+../Expansions/Src/PWMBank.cpp:54:6:void PWMBank::addDriver(uint8_t, I2C_HandleTypeDef*)	72	static
+../Expansions/Src/PWMBank.cpp:77:5:int PWMBank::getNewChannel(uint8_t)	48	static
+../Expansions/Src/PWMBank.cpp:87:9:uint8_t PWMBank::getNumChannels()	16	static
+../Expansions/Src/PWMBank.cpp:91:6:void PWMBank::clearChannels()	32	static

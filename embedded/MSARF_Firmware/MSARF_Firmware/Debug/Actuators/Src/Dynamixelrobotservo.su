@@ -1,0 +1,36 @@
+C:/Users/Lizzie/embedded-software/MSARF_Firmware/MSARF_Firmware/Actuators/Inc/DynamixelrobotServo.h:141:12:uint16_t DynamixelrobotServo::readPosition()	32	static
+C:/Users/Lizzie/embedded-software/MSARF_Firmware/MSARF_Firmware/Actuators/Inc/DynamixelrobotServo.h:168:11:uint8_t DynamixelrobotServo::getLastError() const	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:26:1:DynamixelrobotServo::DynamixelrobotServo(USART_HandleTypeDef*, uint8_t, uint16_t)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:35:6:void DynamixelrobotServo::eepromWrite(uint8_t, const uint8_t*, uint8_t)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:43:6:void DynamixelrobotServo::eepromRead(uint8_t, uint8_t*, uint8_t)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:49:6:void DynamixelrobotServo::ramWrite(uint8_t, const uint8_t*, uint8_t)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:57:6:void DynamixelrobotServo::ramRead(uint8_t, uint8_t*, uint8_t)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:68:6:void DynamixelrobotServo::writeBaudRateEeprom(DynamixelrobotServoBaudRate)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:76:29:DynamixelrobotServoBaudRate DynamixelrobotServo::readBaudRateEeprom()	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:89:6:void DynamixelrobotServo::writeIdEeprom(uint8_t)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:96:9:uint8_t DynamixelrobotServo::readIdEeprom()	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:107:6:void DynamixelrobotServo::writeIdRam(uint8_t)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:117:6:void DynamixelrobotServo::writeAckPolicyEeprom(DynamixelrobotServoAckPolicy)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:124:30:DynamixelrobotServoAckPolicy DynamixelrobotServo::readAckPolicyEeprom()	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:132:6:void DynamixelrobotServo::writeAckPolicyRam(DynamixelrobotServoAckPolicy)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:150:6:void DynamixelrobotServo::writeAlarmLedPolicyRam(uint8_t)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:156:6:void DynamixelrobotServo::writeSpdctrlPolicyRam(DynamixelrobotServoSpdctrlPolicy)	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:167:6:void DynamixelrobotServo::writeMaxPwmRam(uint16_t)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:179:6:void DynamixelrobotServo::writeLedControl(uint8_t)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:185:30:DynamixelrobotServoAckPolicy DynamixelrobotServo::readAckPolicyRam()	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:193:27:DynamixelrobotServoStatus DynamixelrobotServo::readStatus()	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:210:6:void DynamixelrobotServo::setPosition(uint16_t, uint8_t)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:226:6:void DynamixelrobotServo::setSpeed(int16_t, uint8_t)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:234:6:void DynamixelrobotServo::torqueOff()	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:244:6:void DynamixelrobotServo::rollback()	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:254:6:void DynamixelrobotServo::reboot()	24	static
+../Actuators/Src/Dynamixelrobotservo.cpp:259:6:void DynamixelrobotServo::flushRead()	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:264:6:void DynamixelrobotServo::sendRequest(uint8_t, const uint8_t*, uint8_t, const uint8_t*, uint8_t)	40	static
+../Actuators/Src/Dynamixelrobotservo.cpp:292:6:void DynamixelrobotServo::readAck(uint8_t, uint8_t*, uint8_t, uint8_t*, uint8_t)	40	static
+../Actuators/Src/Dynamixelrobotservo.cpp:371:6:void DynamixelrobotServo::memoryWrite(uint8_t, uint8_t, const uint8_t*, uint8_t)	40	static
+../Actuators/Src/Dynamixelrobotservo.cpp:381:6:void DynamixelrobotServo::memoryRead(uint8_t, uint8_t, uint8_t*, uint8_t)	40	static
+../Actuators/Src/Dynamixelrobotservo.cpp:408:6:void DynamixelrobotServo::sendIJog(uint16_t, uint8_t, uint8_t)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:419:9:uint8_t DynamixelrobotServo::detectServo()	48	static
+../Actuators/Src/Dynamixelrobotservo.cpp:448:6:virtual void DynamixelrobotServo::move(float, float)	32	static
+../Actuators/Src/Dynamixelrobotservo.cpp:457:6:virtual void DynamixelrobotServo::torque(bool)	16	static
+../Actuators/Src/Dynamixelrobotservo.cpp:465:7:virtual float DynamixelrobotServo::getValue()	24	static

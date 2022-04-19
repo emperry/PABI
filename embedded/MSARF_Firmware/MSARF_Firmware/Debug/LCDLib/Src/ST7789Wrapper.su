@@ -1,0 +1,5 @@
+../LCDLib/Src/ST7789Wrapper.cpp:13:10:ST7789* ST7789_create(uint16_t*, uint16_t, SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t, uint16_t)	48	static
+../LCDLib/Src/ST7789Wrapper.cpp:17:7:void ST7789_delete(ST7789*)	16	static
+../LCDLib/Src/ST7789Wrapper.cpp:21:7:void ST7789_displayInit(ST7789*, uint8_t*, uint16_t)	24	static
+../LCDLib/Src/ST7789Wrapper.cpp:29:7:void ST7789_writeScreen(ST7789*, uint16_t*)	16	static
+../LCDLib/Src/ST7789Wrapper.cpp:33:7:void ST7789_writeRect(ST7789*, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t*, uint16_t)	40	static

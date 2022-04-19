@@ -1,0 +1,17 @@
+../Expansions/Src/PCA9685_PWM_Driver.cpp:17:1:PCA9685_PWM_Driver::PCA9685_PWM_Driver(uint8_t, I2C_HandleTypeDef*)	24	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:27:6:void PCA9685_PWM_Driver::begin(uint8_t)	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:42:6:void PCA9685_PWM_Driver::reset()	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:50:6:void PCA9685_PWM_Driver::sleep()	24	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:60:6:void PCA9685_PWM_Driver::wakeup()	24	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:71:6:void PCA9685_PWM_Driver::setExtClk(uint8_t)	24	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:96:6:void PCA9685_PWM_Driver::setPWMFreq(float)	32	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:142:6:void PCA9685_PWM_Driver::setOutputMode(bool)	24	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:163:9:uint8_t PCA9685_PWM_Driver::readPrescale()	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:172:9:uint8_t PCA9685_PWM_Driver::getPWM(uint8_t)	40	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:185:6:void PCA9685_PWM_Driver::setPWM(uint8_t, uint16_t, uint16_t)	48	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:214:6:void PCA9685_PWM_Driver::setPin(uint8_t, uint16_t, bool)	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:246:6:void PCA9685_PWM_Driver::writeMicroseconds(uint8_t, uint16_t)	40	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:295:10:uint32_t PCA9685_PWM_Driver::getOscillatorFrequency()	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:304:6:void PCA9685_PWM_Driver::setOscillatorFrequency(uint32_t)	16	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:309:9:uint8_t PCA9685_PWM_Driver::read8(uint8_t)	40	static
+../Expansions/Src/PCA9685_PWM_Driver.cpp:315:6:void PCA9685_PWM_Driver::write8(uint8_t, uint8_t)	32	static

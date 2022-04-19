@@ -1,0 +1,8 @@
+../Sensors/Src/AS5048A.cpp:12:1:AS5048A::AS5048A(uint16_t, SPI_HandleTypeDef*, uint8_t, uint8_t)	24	static
+../Sensors/Src/AS5048A.cpp:15:1:AS5048A::~AS5048A()	16	static
+../Sensors/Src/AS5048A.cpp:15:1:virtual AS5048A::~AS5048A()	16	static
+../Sensors/Src/AS5048A.cpp:17:6:void AS5048A::transmitRecieveData(uint8_t*, uint8_t*, uint16_t)	32	static
+../Sensors/Src/AS5048A.cpp:22:9:uint8_t AS5048A::calcEvenParity(uint16_t)	24	static
+../Sensors/Src/AS5048A.cpp:36:6:void AS5048A::swReset()	80	dynamic
+../Sensors/Src/AS5048A.cpp:58:7:float AS5048A::getMagnitude()	32	static
+../Sensors/Src/AS5048A.cpp:76:7:virtual float AS5048A::getValue()	80	dynamic

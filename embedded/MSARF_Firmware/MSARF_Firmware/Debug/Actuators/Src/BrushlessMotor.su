@@ -1,0 +1,7 @@
+c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:75:3:constexpr float std::abs(float)	16	static
+../Actuators/Src/BrushlessMotor.cpp:10:1:BrushlessMotor::BrushlessMotor(PWMBank*, uint16_t)	24	static
+../Actuators/Src/BrushlessMotor.cpp:11:1:BrushlessMotor::~BrushlessMotor()	16	static
+../Actuators/Src/BrushlessMotor.cpp:11:1:virtual BrushlessMotor::~BrushlessMotor()	16	static
+../Actuators/Src/BrushlessMotor.cpp:13:9:uint8_t BrushlessMotor::begin(uint16_t)	24	static
+../Actuators/Src/BrushlessMotor.cpp:32:6:virtual void BrushlessMotor::move(float, float)	32	static
+../Actuators/Src/BrushlessMotor.cpp:47:6:virtual void BrushlessMotor::torque(bool)	16	static

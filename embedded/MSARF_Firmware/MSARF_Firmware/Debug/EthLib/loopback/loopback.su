@@ -1,0 +1,3 @@
+../EthLib/loopback/loopback.c:9:9:loopback_tcps	32	static
+../EthLib/loopback/loopback.c:75:9:loopback_tcpc	56	static
+../EthLib/loopback/loopback.c:164:9:loopback_udps	56	static

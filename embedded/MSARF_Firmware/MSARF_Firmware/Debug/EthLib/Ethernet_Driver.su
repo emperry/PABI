@@ -1,0 +1,12 @@
+../EthLib/Ethernet_Driver.c:17:6:EthInit	80	static
+../EthLib/Ethernet_Driver.c:48:6:loop	8	static
+../EthLib/Ethernet_Driver.c:52:6:W5500_Select	8	static
+../EthLib/Ethernet_Driver.c:56:6:W5500_Unselect	8	static
+../EthLib/Ethernet_Driver.c:60:6:W5500_ReadBuff	16	static
+../EthLib/Ethernet_Driver.c:64:6:W5500_WriteBuff	16	static
+../EthLib/Ethernet_Driver.c:68:9:W5500_ReadByte	16	static
+../EthLib/Ethernet_Driver.c:74:6:W5500_WriteByte	16	static
+../EthLib/Ethernet_Driver.c:78:6:Callback_IPAssigned	4	static
+../EthLib/Ethernet_Driver.c:82:6:Callback_IPConflict	4	static
+../EthLib/Ethernet_Driver.c:85:6:loop_tcps	16	static
+../EthLib/Ethernet_Driver.c:89:6:loop_udps	16	static

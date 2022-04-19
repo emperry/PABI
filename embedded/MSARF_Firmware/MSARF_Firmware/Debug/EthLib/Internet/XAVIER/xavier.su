@@ -1,0 +1,18 @@
+../Drivers/CMSIS/Include/core_cm7.h:2156:34:void __NVIC_SystemReset()	4	static,ignoring_inline_asm
+../EthLib/Internet/XAVIER/xavier.cpp:82:6:void resetStructs()	8	static
+../EthLib/Internet/XAVIER/xavier.cpp:87:6:void initStructs()	72	static
+../EthLib/Internet/XAVIER/xavier.cpp:105:9:uint8_t getResponse(uint8_t*, uint8_t)	592	static
+../EthLib/Internet/XAVIER/xavier.cpp:686:9:uint8_t getOpCode(uint8_t*)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:690:9:uint8_t buildACK(uint8_t, uint8_t, uint8_t*)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:698:9:uint8_t buildModAck(MODULECONFIG_t*, uint8_t*)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:708:9:uint8_t buildError(MODULECOMMAND_t*, uint8_t, uint8_t*)	24	static
+../EthLib/Internet/XAVIER/xavier.cpp:725:9:uint8_t buildCommandResponse(MODULECOMMAND_t*, uint8_t*, uint8_t, uint8_t*)	24	static
+../EthLib/Internet/XAVIER/xavier.cpp:738:9:uint8_t buildAVAIL(uint8_t*)	24	static
+../EthLib/Internet/XAVIER/xavier.cpp:743:9:uint8_t buildInfo(uint8_t*)	32	static
+../EthLib/Internet/XAVIER/xavier.cpp:749:10:uint8_t* parseACK(uint8_t*, uint8_t)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:753:10:uint8_t* parseFIN(uint8_t*, uint8_t)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:757:6:void parseMODCONF(uint8_t*, uint8_t, MODULECONFIG_t*)	24	static
+../EthLib/Internet/XAVIER/xavier.cpp:764:6:void parseCOMMAND(uint8_t*, uint8_t, MODULECOMMAND_t*)	24	static
+../EthLib/Internet/XAVIER/xavier.cpp:772:15:GPIO_TypeDef* getPort(uint8_t)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:799:10:uint16_t getPin(uint8_t)	16	static
+../EthLib/Internet/XAVIER/xavier.cpp:838:6:void getMotorLayout(uint8_t, uint8_t*)	16	static

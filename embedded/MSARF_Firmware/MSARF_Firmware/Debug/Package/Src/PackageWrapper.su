@@ -1,0 +1,5 @@
+../Package/Src/PackageWrapper.cpp:12:7:void Package_StepPID(Package*)	16	static
+../Package/Src/PackageWrapper.cpp:16:7:void Package_updateSensorValue(Package*)	16	static
+../Package/Src/PackageWrapper.cpp:20:7:void Package_VelSetpoint(Package*, int32_t)	16	static
+../Package/Src/PackageWrapper.cpp:24:7:void Package_PosSetpoint(Package*, int32_t)	16	static
+../Package/Src/PackageWrapper.cpp:28:10:uint8_t Package_getPackageNum(Package*)	16	static

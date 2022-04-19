@@ -1,0 +1,8 @@
+../Expansions/Src/GPIOBank.cpp:12:1:GPIOBank::GPIOBank(uint8_t)	16	static
+../Expansions/Src/GPIOBank.cpp:14:6:void GPIOBank::addDriver(uint8_t, I2C_HandleTypeDef*)	72	static
+../Expansions/Src/GPIOBank.cpp:35:5:int GPIOBank::getNewChannel(uint8_t)	48	static
+../Expansions/Src/GPIOBank.cpp:45:6:void GPIOBank::pinMode(uint8_t, uint8_t)	24	static
+../Expansions/Src/GPIOBank.cpp:61:6:void GPIOBank::setOutput(uint8_t, uint16_t)	24	static
+../Expansions/Src/GPIOBank.cpp:77:9:uint8_t GPIOBank::getInput(uint8_t)	24	static
+../Expansions/Src/GPIOBank.cpp:93:9:uint8_t GPIOBank::getNumChannels()	16	static
+../Expansions/Src/GPIOBank.cpp:97:6:void GPIOBank::clearChannels()	32	static

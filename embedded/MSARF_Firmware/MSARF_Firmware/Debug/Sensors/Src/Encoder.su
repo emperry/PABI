@@ -1,0 +1,4 @@
+../Sensors/Src/Encoder.cpp:10:1:Encoder::Encoder(LPTIM_HandleTypeDef*, TIM_HandleTypeDef*, uint16_t, uint16_t)	24	static
+../Sensors/Src/Encoder.cpp:13:1:Encoder::~Encoder()	16	static
+../Sensors/Src/Encoder.cpp:15:6:void Encoder::initEncoder()	16	static
+../Sensors/Src/Encoder.cpp:23:7:virtual float Encoder::getValue()	24	static
